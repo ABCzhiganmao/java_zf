@@ -10,10 +10,13 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
 
 File:
-  uploadPath: /root/
+  uploadPath: E:\JavaCode\java_zf\server\upload
