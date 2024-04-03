@@ -97,6 +97,7 @@ public class ThingController {
             String randomStr = UUID.randomUUID().toString();
             newFileName = randomStr + oldFileName.substring(oldFileName.lastIndexOf("."));
             String filePath = uploadPath + File.separator + "image" + File.separator + newFileName;
+            System.out.printf("--------->文件存放目录为：%s%n", filePath);
             File destFile = new File(filePath);
             if(!destFile.getParentFile().exists()){
                 destFile.getParentFile().mkdirs();
