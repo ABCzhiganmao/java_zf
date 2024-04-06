@@ -6,7 +6,7 @@ BASE_LOCATION: /root/java_zf/server/upload
 DB_NAME: java_zf
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/study?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://192.168.120.128:3306/study?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
